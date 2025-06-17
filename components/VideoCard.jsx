@@ -46,7 +46,7 @@ const VideoCard = ({
         </View>
       </View>
       {play ? (
-          <Text className="text-whiter">playing</Text>
+          <Text className="text-white">playing</Text>
         ):(
           <TouchableOpacity 
             className="w-full h-60 rounded-xl mt-3 relative justify-center items-center"
