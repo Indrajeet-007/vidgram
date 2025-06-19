@@ -46,10 +46,10 @@ export default function RootLayout() {
         name="(tabs)"
         options={{ headerShown: false }}
       ></Stack.Screen>
-      {/* <Stack.Screen
-        name="/search/[query]"
+      <Stack.Screen
+        name="search/[query]"
         options={{ headerShown: false }}
-      ></Stack.Screen> */}
+      ></Stack.Screen>
     </Stack>
     <StatusBar backgroundColor="#161622" style="light"></StatusBar>
     </GlobalProvider>
